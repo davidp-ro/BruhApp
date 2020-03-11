@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Bruh</string>
+
+    <!-- Strings for the text -->
+    <string name="bruh_counter">%1$d</string>
+    <string name="bruh_button">Bruh…</string>
+    <string name="bottom_text">Definitely not a bad idea. github.com/davidp-ro</string>
+
+    <!-- Strings for the toasts -->
+    <string name="at69">Original idea by fastboirafa</string>
+
 </resources>

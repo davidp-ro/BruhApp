@@ -3,4 +3,16 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!-- Background colors -->
+    <color name="Background_Light">#ffffff</color> <!-- white -->
+    <color name="Background_Dark">#242321</color> <!-- dark brown -->
+
+    <!-- Text -->
+    <color name="TextColor">#ffffff</color> <!-- white -->
+    <color name="TextColor_subtle">#0e2e00</color> <!-- dark green -->
+
+    <!-- Button -->
+    <color name="ButtonBackground">#787880</color> <!-- grey -->
+    <color name="ButtonText">#ffffff</color> <!-- white -->
 </resources>

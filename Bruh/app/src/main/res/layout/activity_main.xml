@@ -5,37 +5,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@android:color/darker_gray">
+    android:background="@color/Background_Dark">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/bruhCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/bruh_counter"
         android:textSize="@android:dimen/notification_large_icon_height"
+        android:textColor="@color/TextColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="252dp"
-        android:layout_height="184dp"
-        android:text="Bruh..."
+        android:id="@+id/addBruh"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:text="@string/bruh_button"
         android:textSize="@android:dimen/app_icon_size"
-        android:background="@android:color/holo_blue_dark"
-        android:textColor="@android:color/holo_purple"
+        android:background="@color/ButtonBackground"
+        android:textColor="@color/ButtonText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"/>
+        app:layout_constraintTop_toBottomOf="@+id/bruhCounter"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/bottomText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Definitely not a bad idea. github.com/davidp-ro"
+        android:text="@string/bottom_text"
+        android:textColor="@color/TextColor_subtle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
