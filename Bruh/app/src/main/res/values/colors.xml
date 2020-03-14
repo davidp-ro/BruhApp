@@ -10,7 +10,7 @@
 
     <!-- Text -->
     <color name="TextColor">#ffffff</color> <!-- white -->
-    <color name="TextColor_subtle">#0e2e00</color> <!-- dark green -->
+    <color name="TextColor_subtle">#ffffff</color> <!-- white <- not so subtle -->
 
     <!-- Button -->
     <color name="ButtonBackground">#787880</color> <!-- grey -->
